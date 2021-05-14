@@ -1,10 +1,22 @@
-#ifndef CASILLAS_H
-#define CASILLAS_H
+#ifndef CASILLA_H
+#define CASILLA_H
 
-class Casillas
-{
-	public:
-	protected:
+#include "Pieza.h"
+
+class Casilla {
+public:
+    
+    Casilla();
+    Casilla(const Casilla& orig);
+    virtual ~Casilla();
+    Casilla(Pieza*);
+    
+    Pieza* getPieza();
+    void setPieza(Pieza*);
+    
+    
+private:
+    Pieza* piezaAsignada;
 };
 
-#endif
+#endif /* CASILLA_H */
