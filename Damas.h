@@ -11,6 +11,9 @@ public:
     
     void imprimirTablero();
     void llenarTablero();
+	bool revisarGane(char);
+    void deleteTablero();
+    
     
 private:
     Casilla*** tablero;

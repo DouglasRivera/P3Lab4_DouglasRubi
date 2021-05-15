@@ -2,6 +2,7 @@
 #define CASILLA_H
 
 #include "Pieza.h"
+#include <iostream>
 
 class Casilla {
 public:
@@ -13,7 +14,6 @@ public:
     
     Pieza* getPieza();
     void setPieza(Pieza*);
-    
     
 private:
     Pieza* piezaAsignada;

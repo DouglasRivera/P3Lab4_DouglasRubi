@@ -1,5 +1,6 @@
 #include "Casillas.h"
-
+#include <iostream>
+using std::string;
 Casilla::Casilla() {
 }
 
@@ -22,6 +23,7 @@ Pieza* Casilla::getPieza(){
         return 0;
     }
 }
+
 
 void Casilla::setPieza(Pieza* pieza){
     this->piezaAsignada = pieza;

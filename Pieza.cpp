@@ -1,6 +1,6 @@
-
 #include "Pieza.h"
-
+#include <iostream>
+using std::string;
 Pieza::Pieza() {
 }
 
